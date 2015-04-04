@@ -18,6 +18,8 @@ apt-get install apache2 apache2-doc apache2-utils libapache2-mod-ruby libapache2
 vim /etc/apache2/apache2.conf 
 vim /etc/apache2/envvars
 
+a2enmod rewrite
+
 apt-get install nodejs nodejs-legacy npm
 
 npm install -g grunt grunt-cli bower
