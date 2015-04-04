@@ -7,6 +7,7 @@ apt-get update
 apt-get upgrade
 
 apt-get install linux-headers-$(uname -r)
+
 mv composer.phar /usr/local/bin/composer
 
 aptitude install vim git terminator curl sshfs chromium gcc
