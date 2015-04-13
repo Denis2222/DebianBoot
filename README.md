@@ -23,4 +23,5 @@ vim /etc/apache2/envvars
 a2enmod rewrite
 
 wget http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb
+
 dpkg -i sublime-text_build-3065_amd64.deb
